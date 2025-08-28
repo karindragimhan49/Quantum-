@@ -1,7 +1,7 @@
 <?php
     // Database connection settings
     $host = "localhost";
-    $user = "quantum_user";
-    $pwd  = "";
+    $user = "root";
+    $pwd  = ""; // No password
     $sql_db = "quantum_db"; 
 ?>

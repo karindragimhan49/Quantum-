@@ -10,7 +10,7 @@
 <body>
     <header class="main-header">
         <div class="container">
-            <a href="index.php" class="logo">Quantum</a>
+            <a href="index.php" class="logo">Quantum®</a>
             <nav class="main-nav">
                 <!-- You can keep the nav here or remove it on the processing page -->
             </nav>
@@ -36,6 +36,7 @@
                     $conn = @mysqli_connect($host, $user, $pwd, $sql_db); // Connect to database
 
                     if (!$conn) {
+                        die("Database connection failed: " . mysqli_connect_error());
                         echo "<h2>Database Connection Error</h2>";
                         echo "<p>We are unable to process your application at this time. Please try again later.</p>";
                     } else {
@@ -87,6 +88,7 @@
                             }
                         }
                         mysqli_close($conn); // Close connection
+
                     }
                 } else {
                     // Redirect if accessed directly
