@@ -9,7 +9,7 @@
 <body>
     <header class="main-header">
         <div class="container">
-            <a href="index.php" class="logo">Quantum</a>
+            <a href="index.php" class="logo">Quantum®</a>
             <nav class="main-nav">
                 <ul>
                     <li><a href="index.php">Home</a></li>
@@ -28,7 +28,7 @@
                 <h2>Job Application Form</h2>
                 <p>Please fill out the form below to apply for a position at Quantum IT Solutions. Fields marked with an asterisk (*) are required.</p>
                 
-                <form id="apply-form" action="https://mercury.swin.edu.au/it000000/formtest.php" method="post">
+                <form id="apply-form" action="processEOI.php" method="post" novalidate="novalidate">
                     <div class="form-group">
                         <label for="job-ref">Job Reference Number *</label>
                         <input type="text" id="job-ref" name="job_ref" required pattern="[a-zA-Z0-9]{5}" title="Must be exactly 5 alphanumeric characters.">

@@ -9,7 +9,7 @@
 <body>
     <header class="main-header">
         <div class="container">
-            <a href="index.php" class="logo">Quantum</a>
+            <a href="index.php" class="logo">Quantum®</a>
             <nav class="main-nav">
                 <ul>
                     <li><a href="index.php">Home</a></li>
